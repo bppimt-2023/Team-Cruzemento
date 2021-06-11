@@ -280,9 +280,10 @@
     margin: 30px 0;
     border-radius: 30px;
     transition:background 0.5s;
+	height: 250px;
 }
 .btn:hover{
-   background: #563434
+   background: #fff;
 }
 .header{
     background: radial-gradient(#fff,#ffd6d6);
