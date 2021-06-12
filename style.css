@@ -49,10 +49,12 @@
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
   }
   a.active,a:hover{
     background: #F0131E;
     transition: .5s;
+    color: white;
   }
   .checkbtn{
     font-size: 30px;
@@ -246,7 +248,7 @@
     padding-bottom: 5px;
    }
  
-  .container{
+  .container1{
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -281,6 +283,7 @@
     border-radius: 30px;
     transition:background 0.5s;
     padding-top:5px;
+    text-decoration: none;
 
 }
 .btn:hover{
@@ -552,3 +555,63 @@ h3{
     font-size:13px;
     margin-bottom:0;
   }
+#thunder{
+  width:300px;
+  height: 300px;
+  
+}
+.leader{
+  width: 200px;
+  height: 200px;
+  
+}
+.btn3{
+  display: inline-block;
+  
+  color: #fff;
+  background-color:#002D62 ;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition:background 0.5s;
+  padding-top:5px;
+  text-decoration: none;
+
+}
+.btn2{
+  display: inline-block;
+  
+  color: #fff;
+  background-color:gold ;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition:background 0.5s;
+  padding-top:5px;
+  text-decoration: none;
+
+}
+.btn1{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color:#0161AB ;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition:background 0.5s;
+  padding-top:5px;
+
+}
+.btn1:hover{
+  color: #0161AB ;
+  background-color: #fff;
+}
+.btn2:hover{
+  color: gold ;
+  background-color: #fff;
+}
+.btn3:hover{
+  color: #002D62 ;
+  background-color: #fff;
+}
