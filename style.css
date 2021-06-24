@@ -65,6 +65,11 @@
     cursor: pointer;
     display: none;
   }
+  .stone{
+    max-width: 20px;
+    max-width: 50px;
+    align-self: center;
+  }
   #check{
     display: none;
   }
